@@ -18,8 +18,8 @@ function App() {
       <ul>
         <li>컴퓨터공학부 24학번</li>
         <li>MBTI는 ISTP</li>
-        <li></li>
-        <li></li>
+        <li>취미는 PS와 롤</li>
+        <li>많이 배우고 싶습니다! 잘 부탁드립니다!</li>
       </ul>
     </div>
   );
