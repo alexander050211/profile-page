@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  background-image: url("./assets/IMG_5078.jpg");
+  background-image: url('./assets/IMG_5078.jpg');
 }
 
 .profileImage {
@@ -17,16 +17,26 @@
 .glowing-text-dynamic {
   font-size: 2rem;
   color: white;
-  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+  text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff;
   animation: glow 1.5s infinite alternate;
 }
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    text-shadow:
+      0 0 5px #0ff,
+      0 0 10px #0ff,
+      0 0 20px #0ff;
   }
   to {
-    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+    text-shadow:
+      0 0 10px #0ff,
+      0 0 20px #0ff,
+      0 0 40px #0ff,
+      0 0 80px #0ff;
   }
 }
 
