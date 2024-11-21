@@ -30,5 +30,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ap-northeast-2
         run: |
-          aws s3 sync ./dist s3://waffle-seminar-frontend-dev --delete
-          aws cloudfront create-invalidation --distribution-id EF69H4S1FMCU5 --paths "/*"
+          aws s3 sync ./dist s3://wafflestudio-frontend-seminar-dev --delete
+          aws cloudfront create-invalidation --distribution-id E1QSBS3N09WT15 --paths "/*"
